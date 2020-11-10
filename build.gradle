@@ -24,3 +24,10 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+
+    daggeVersion ="2.21"
+    retrofit_version="2.5.0"
+
+}
